@@ -1,42 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
+  
   <title>You played rock!</title>
 
   <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
   <meta charset="utf-8">
+
+  <link rel="stylesheet" href="mystylessinhue.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-  <div>
-    <a href="/rock" style="border: 3px teal solid;">
+  <div class="row">
+  <div class="one-third">
+    <a class= "button" href="/rock">
       Play Rock
     </a>
   </div>
+  
 
-  <div>
-    <a href="/paper">
+  
+  <div class="one-third">
+    <a class= "button" href="/paper">
       Play Paper
-    </a>
+    </a> 
   </div>
+  
 
-  <div>
-    <a href="/scissors">
+  
+  <div class="one-third">
+    <a class= "button" href="/scissors">
       Play Scissors
     </a>
   </div>
+  </div>
 
-  <h2 style="color: greenyellow">
-    We played rock!
+  
+
+<div class="row">
+<div class="player-card">
+  <h2 >
+    We played <em>rock!</em>
   </h2>
+</div>
 
-  <h2 style=" color: blue; font-size: 39px; ">
+  <div class="computer-card">
+  <h2 >
     They played paper!
   </h2>
+  </div> 
+</div>
 
-  <h2 style="color: red">
+<div class="results">
+  <h2 >
     We lost!
   </h2>
+</div>
 
   <a href="/">
     Rules

@@ -1,0 +1,44 @@
+* {
+  border: thin rgb(0, 26, 255) dashed;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Rampart One', cursive;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.button { 
+color:rgb(0, 0, 0);
+border: 3px rgb(6, 237, 237) solid; 
+border-radius: 5px; 
+text-decoration: none;
+display: inline-block;
+width:100%;
+text-align: center;
+padding-top: 5px;
+padding-bottom: 3px;
+
+}
+
+.player-card {
+border: thin rgb(11, 18, 226) solid;
+width: 49%;
+text-align: center;
+}
+
+.computer-card {
+border: thin green solid;
+width:49%;
+text-align: center;
+
+}
+
+.one-third {
+width: 32%;
+}
