@@ -1,7 +1,4 @@
-* {
-  border: thin rgb(0, 26, 255) dashed;
-  box-sizing: border-box;
-}
+
 
 body {
   font-family:'Rampart One', cursive;
@@ -14,8 +11,9 @@ body {
 }
 
 .button { 
-color:rgb(0, 0, 0);
-border: 3px rgb(6, 237, 237) solid; 
+margin: 10px;
+color:rgb(255, 255, 255);
+border: 2px red solid; 
 border-radius: 5px; 
 text-decoration: none;
 display: inline-block;
@@ -23,22 +21,51 @@ width:100%;
 text-align: center;
 padding-top: 5px;
 padding-bottom: 3px;
-
+background-color: black;
+transition: .80s ease-in-out ;
 }
 
 .player-card {
-border: thin rgb(11, 18, 226) solid;
+ color:white;
+border: 2px red solid;
+border-radius: 5px;
 width: 49%;
 text-align: center;
+background-color: black;
+transition: .80s ease-in-out ;
 }
 
+
 .computer-card {
-border: thin green solid;
+  color:white;
+  border: 2px red solid;
+  border-radius: 5px;
 width:49%;
 text-align: center;
+background-color: black;
+transition: .80s ease-in-out ;
 
 }
 
 .one-third {
 width: 32%;
+}
+
+.results {
+  margin: 10px;
+  text-align:center;
+  color:whitesmoke;
+  border:2px red solid;
+  background-color: black;
+transition: 1s ease-in-out ;
+}
+
+.rules{
+  margin-top: 15px;
+  color:white;
+padding: 2px;
+border-radius: 3px;
+background-color: black;
+border: 2px red solid;
+  
 }
