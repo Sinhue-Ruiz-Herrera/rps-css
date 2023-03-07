@@ -61,6 +61,7 @@ transition: 1s ease-in-out ;
 }
 
 .rules{
+  
   margin-top: 15px;
   color:white;
 padding: 2px;
@@ -68,4 +69,9 @@ border-radius: 3px;
 background-color: black;
 border: 2px red solid;
   
+}
+
+.row-center{
+  display:flex;
+  justify-content: center;
 }
